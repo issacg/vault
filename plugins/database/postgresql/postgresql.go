@@ -32,7 +32,7 @@ func New() (interface{}, error) {
 		DisplayNameLen: 8,
 		RoleNameLen:    8,
 		UsernameLen:    63,
-		Separator:      "-",
+		Separator:      "_",
 	}
 
 	dbType := &PostgreSQL{
